@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+	<style>
+		form {
+			font-family: Helvetica;
+			font-size: 20px;
+			color: white;
+		}
+
+		body {
+			background-color: #d7d7d7;
+		}
+
+		input[type="submit"] {
+			font-family: Impact;
+			font-size: 20px;
+		}
+
+		input[type="submit"]:hover {
+			color: grey;
+			cursor: pointer;
+		}
+
+		#box {
+			background-color: black;
+			border-radius: 10px;
+			height: 100%;
+			width: 25%;
+			padding: 50px 20px;
+			margin: 30px;
+		}
+
+		#title {
+			font-family: Impact;
+			font-size: 36px;
+			color: white;
+			text-align: center;
+			padding-bottom: 50px;
+		}
+
+		input {
+			border-radius: 10px;
+			padding: 5px;
+		}
+
+		p {
+			padding-top: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<div id="title">
+			LOG YOUR BOOK
+		</div>
+		<form action ="#" method = "POST" align="center">
+			author: <input type="text" name="author"><br><br>
+			first_sentence: <input type="text" name="sentence"><br><br>
+			id: <input type="number" name="id"><br><br>
+			published: <input type="text" name="pub"><br><br>
+			title: <input type="text" name="title"><br><br>
+			<p><input type="submit" value = "SUBMIT" /></p>
+		</form>
+	</div>
+</body>
